@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, ShieldCheck, Truck, RefreshCw } from 'lucide-react';
-import SectionTitle from '../components/SectionTitle';
-import ProductCard from '../components/ProductCard';
-import { products } from '../data/products';
+import SectionTitle from '../components/SectionTitle.jsx';
+import ProductCard from '../components/ProductCard.jsx';
+import { products } from '../data/products.js';
 import girlimg from '../assets/girlsimg.png';
 
 const Home = () => {
